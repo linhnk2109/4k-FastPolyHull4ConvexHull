@@ -1,0 +1,24 @@
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# Julia generated files
+result/
+*.jld2
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Temporary Python/Julia bridge files
+*.f64
+manifest.tsv
+hulls.f64
+results.tsv

@@ -1,0 +1,33 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# Temporary Python/Julia bridge files
+*.f64
+manifest.tsv
+hulls.f64
+results.tsv
+
+# Keep only the result and figure sets used by the current manuscript.
+results/*
+!results/strict/
+!results/strict/**
+!results/synthetic_paper/
+!results/synthetic_paper/**
+
+figures/*
+!figures/strict/
+!figures/strict/**
+!figures/synthetic_paper/
+!figures/synthetic_paper/**

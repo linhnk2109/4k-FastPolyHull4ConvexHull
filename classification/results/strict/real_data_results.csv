@@ -1,0 +1,4 @@
+dataset,protocol,feature_i,feature_j,cv_mean_acc,n_train,n_test,hull_test_acc,knn_test_acc,rbf_svm_test_acc
+iris,strict,sepal length (cm),petal length (cm),0.9714285714285713,105,45,0.9111111111111111,0.9111111111111111,0.9555555555555556
+wine,strict,alcohol,flavanoids,0.9436666666666665,124,54,0.8888888888888888,0.8888888888888888,0.8888888888888888
+breast_cancer,strict,worst area,worst concave points,0.9598101265822784,398,171,0.9473684210526315,0.9298245614035088,0.935672514619883
